@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de clientes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Lista de clientes</h1>
+    </header>
+    <main>
+        <div class="title">
+            <h2>Clientes</h2>
+            <p>
+                Lista de clientes com ID, Nome e CPF
+            </p>
+        </div>
+        <div class="card">
+            <div class="input-form">
+                <label for="nome">Nome: </label>
+                <input type="text" name="nome" id="nome" placeholder="Insira o nome">
+            </div>
+            <div class="input-form">
+                <label for="cpf">CPF: </label>
+                <input type="text" name="cpf" id="cpf" placeholder="Insira o CPF XXX.XXX.XXX-00">
+            </div>
+
+            <div class="button">
+                <button onclick="cliente.salvar()">Adicionar</button>
+            </div>
+        </div>
+
+        <div class="tabela">
+            <table border="1">
+                <thead>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>CPF</th>
+                </thead>
+                <tbody id="tbody">
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>

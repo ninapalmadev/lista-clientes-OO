@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --fonte-principal: 'Montserrat', sans-serif;
+    --fonte-secundaria: 'Open Sans', sans-serif;
+
+    --cor-azul: #A2D2FF;
+    --cor-roxo: #c774e8;
+    --cor-rosa: #fff6f9;
+}
+
+header {
+    background-color: var(--cor-azul);
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+    padding: 20px 0;
+}
+
+.title {
+    font-family: var(--fonte-principal);
+    text-align: center;
+    margin-top: 24px;
+}
+
+.card {
+    font-family: var(--fonte-principal);
+    margin: 10px auto;
+    padding: 20px;
+    width: 600px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-form input {
+    width: 100%;
+    padding: 4px 0;
+    margin: 4px 0;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.button button {
+    background-color: var(--cor-azul);
+    border: none;
+    border-radius: 10px;
+    width: 40%;
+    padding: 10px;
+}
+
+.button button:hover {
+    background-color: var(--cor-roxo);
+}
+.button {
+   margin-top: 12px;
+   text-align: center;
+}
+
+.tabela {
+    margin: 16px auto;
+    width: 600px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 3px solid var(--cor-azul);
+    width: 100%;
+}
+
+table th {
+    background-color: var(--cor-azul);
+}
+
+table th, td {
+    font-family: var(--fonte-secundaria);
+    padding: 8px;
+    text-align: left;
+
+}
